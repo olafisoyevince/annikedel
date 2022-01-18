@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.line-image {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../images/unsplash_zQtmZjMdejU (1).png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.line-image .body-section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-image .navbar .logo {
+  width: 80%;
+  padding-top: 10px;
+}
+
+.line-image .navbar .logo img {
+  width: 150px;
+}
+
+.line-image .navbar .navbar-nav a {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.line-image .header-section {
+  width: 100%;
+}
+
+.line-image .header-section .header-mask {
+  width: 94.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.line-image .header-section .header-mask .header-text {
+  width: 40%;
+}
+
+.line-image .header-section .header-mask .header-text h2 {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+.line-image .header-section .header-mask .header-text p {
+  line-height: 1.5rem;
+}
+
+.line-image .header-section .header-mask .header-text .input-group input {
+  border: 2px solid #E35709;
+  color: black;
+}
+
+.line-image .header-section .header-mask .header-text .input-group button {
+  border: 2px solid #E35709;
+  background-color: #E35709;
+  color: white;
+}
+
+.line-image .header-section .header-mask .header-text .orange-color {
+  color: #E35709;
+}
+
+.line-image .header-section .header-mask .header-img {
+  width: 60%;
+}
+
+.line-image .header-section .header-mask .header-img img {
+  width: 100%;
+}
+
+.background {
+  background: #F3FFFF;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.background .why-heading {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.background .why-heading h4 {
+  margin-bottom: 150px;
+  border-bottom: 5px solid #E35709;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.background .why-anni {
+  background: white;
+  width: 370px;
+  height: 400px;
+  position: relative;
+  padding: 60px 30px 0 30px;
+}
+
+.background .why-anni h5 {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.background .why-anni .card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.br {
+  border: 2px black solid;
+}
+
+.contains {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: relative;
+}
+
+.contains .contain-1 {
+  position: absolute;
+  right: 1220px;
+  z-index: 1;
+}
+
+.contains .contain-2 {
+  position: absolute;
+  z-index: 2;
+  right: 1220px;
+  top: 960px;
+}
+
+.contains .contain-3 {
+  position: absolute;
+  z-index: 2;
+  right: 1050px;
+  bottom: 1030px;
+}
+
+.contains .contain-mask {
+  width: 60%;
+  margin-right: 120px;
+}
+
+.contains .contain-mask .anni-includes {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.contains .contain-mask .anni-includes h4 {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  border-bottom: 5px solid #E35709;
+}
+
+.contains .contain-mask .the-why {
+  background: #F3FFFF;
+  width: 370px;
+  height: 450px;
+  position: relative;
+  padding: 60px 30px 0 30px;
+}
+
+.contains .contain-mask .the-why h5 {
+  text-align: center;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+
+.contains .contain-mask .the-why .card-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.contains .contain-mask .the-why .three-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+}
+
+.extra-margin {
+  margin-bottom: 80px;
+}
+
+.boxes {
+  height: 120vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  position: relative;
+}
+
+.boxes .box-1 {
+  position: absolute;
+  top: 376.5px;
+}
+
+.boxes .box-2 {
+  position: absolute;
+  left: 1441px;
+  top: 250px;
+}
+
+.boxes .box-3 {
+  position: absolute;
+  left: 830px;
+  top: 220px;
+}
+
+.boxes .box-4 {
+  position: absolute;
+  top: 480px;
+  left: 455px;
+}
+
+.boxes .bottom-section {
+  width: 100%;
+  background-color: #0FABA2;
+  border-radius: 6px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.boxes .bottom-section p {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.boxes .bottom-section .bottom-input {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxes .bottom-section .bottom-input .input-group input {
+  border: 2px solid #E35709;
+  color: black;
+}
+
+.boxes .bottom-section .bottom-input .input-group button {
+  border: 2px solid #E35709;
+  background-color: #E35709;
+  color: white;
+}
+
+.footer-section {
+  background: #054440;
+  color: #fff;
+}
+
+.footer-section .pad {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.footer-section .pad .breadth {
+  width: 350px;
+}
+
+.footer-section .pad .breadth .img-container {
+  padding-bottom: 20px;
+}
+
+.footer-section .pad .col h5 {
+  font-weight: bold;
+}
+
+.footer-section .all-rights {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.footer-section .breadth-2 {
+  width: 175px;
+}
+
+.why-img {
+  position: absolute;
+  bottom: 370px;
+  left: 130px;
+}
+
+.why-img-2 {
+  position: absolute;
+  bottom: 410px;
+  left: 130px;
+}
